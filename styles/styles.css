@@ -1,20 +1,21 @@
 body{
     margin: auto;
-width: 420px;
-height: 595px;
+max-width: 500x;
+height: 600px;
 font-family: 'Quicksand', sans-serif;
 background: linear-gradient(180deg, #FFCC70 0%, #C850C0 49.3%, #4158D0 100%);
+
 }
 
 .borders{    
 box-sizing: border-box;
 display: flex;
 flex-wrap: wrap;
-align-content: flex-start;
+margin: auto;
 justify-content: center;
 width: 400px;
 height: 575px;
-left: 10px;
+left: 240px;
 top: 10px;
 
 border: 1px solid rgba(255, 255, 255, 0.29);
@@ -74,6 +75,7 @@ border-radius: 44px;}
 
 .birthday{
     
+    justify-content: space-around;
 display: flex;
 width: 281px;
 height: 36px;
@@ -144,7 +146,7 @@ flex-grow: 0;
 }
 
 footer{
- width: 345px;
+width: 345px;
 height: 170px;
 left: 33px;
 top: 522px;
@@ -154,9 +156,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 15px;
-display: flex;
 align-items: center;
 text-align: center;
-
+display: flex;
 color: #FFFFFF;
 }
